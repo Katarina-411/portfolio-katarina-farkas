@@ -1,0 +1,35 @@
+/* linear-gradient(to bottom,
+    #076470 0%,
+    #d8d1d1 30%,
+    #dab694 64%,
+    #8f8787 100%)*/
+
+:root {
+  --primary-color: #076470;
+  --secondary-color: #dab694;
+}
+body {
+  font-family: "Urbanist", sans-serif;
+}
+h1 {
+  color: var(--primary-color);
+  font-size: 48px;
+  font-weight: 600;
+}
+h4 {
+  font-size: 18px;
+}
+.nav-link,
+.navbar-brand,
+.navbar-toggler-icon {
+  color: var(--secondary-color) !important;
+}
+.active,
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #04363c !important;
+}
+.email-link {
+  color: var(--primary-color);
+  text-decoration: none;
+}
