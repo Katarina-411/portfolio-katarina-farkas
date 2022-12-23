@@ -25,6 +25,16 @@ h2 {
   font-size: 18px;
   color: var(--accent-color);
 }
+h3 {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+h4 {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--primary-color);
+}
 #monogram {
   font-family: var(--heading-font);
   font-weight: 700;
@@ -47,7 +57,8 @@ h2 {
     var(--highlight-color) 90% 93%,
     var(--secondary-color) 93%
   );
-  padding: 80px 20px 130px;
+  padding: 80px 80px 130px;
+  width: 100%;
 }
 .btn-brand {
   background-color: var(--highlight-color);
@@ -61,7 +72,41 @@ h2 {
   color: var(--secondary-color);
   background-color: var(--accent-color);
 }
+.btn-center {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+}
+.thumbnail {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+}
 .email-link {
   color: var(--tertiary-color);
   text-decoration: none;
+}
+.contact-panel {
+  background-color: var(--tertiary-color);
+  width: 100%;
+}
+@media (max-width: 760px) {
+  h1,
+  h2 {
+    text-align: center;
+  }
+  .hero {
+    padding: 40px 20px 60px;
+  }
+  .btn-brand {
+    display: block;
+    margin: 30px auto;
+    width: 50%;
+    font-size: 16px;
+  }
+  .btn-center {
+    max-width: 80%;
+  }
+  .feature-projects {
+    width: 80%;
+  }
 }
