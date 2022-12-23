@@ -60,6 +60,12 @@ h4 {
   padding: 80px 80px 130px;
   width: 100%;
 }
+.icon {
+  color: var(--secondary-color);
+  font-size: 90px;
+  position: relative;
+  bottom: -30px;
+}
 .btn-brand {
   background-color: var(--highlight-color);
   padding: 10px 20px;
