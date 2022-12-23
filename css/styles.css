@@ -42,10 +42,10 @@ h2 {
 }
 .hero {
   background: linear-gradient(
-    150deg,
-    var(--primary-color) 77%,
-    var(--highlight-color) 77% 80%,
-    var(--secondary-color) 80%
+    to bottom,
+    var(--primary-color) 90%,
+    var(--highlight-color) 90% 93%,
+    var(--secondary-color) 93%
   );
   padding: 100px 20px;
 }
