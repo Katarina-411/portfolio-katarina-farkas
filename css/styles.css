@@ -7,17 +7,28 @@
 :root {
   --primary-color: #076470;
   --secondary-color: #dab694;
+  --tertiary-color: #8f8787;
+  --accent-color: #012225;
+  --highlight-color: #d8d1d1;
+  --heading-font: "Tangerine", cursive;
 }
 body {
   font-family: "Urbanist", sans-serif;
 }
 h1 {
-  color: var(--primary-color);
-  font-size: 48px;
-  font-weight: 600;
+  font-family: var(--heading-font);
+  font-weight: 700;
+  color: var(--secondary-color);
+  font-size: 72px;
 }
-h4 {
+h2 {
   font-size: 18px;
+  color: var(--accent-color);
+}
+#monogram {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 32px;
 }
 .nav-link,
 .navbar-brand,
@@ -27,9 +38,30 @@ h4 {
 .active,
 .nav-link:hover,
 .navbar-brand:hover {
-  color: #04363c !important;
+  color: var(--accent-color) !important;
+}
+.hero {
+  background: linear-gradient(
+    150deg,
+    var(--primary-color) 77%,
+    var(--highlight-color) 77% 80%,
+    var(--secondary-color) 80%
+  );
+  padding: 100px 20px;
+}
+.btn-brand {
+  background-color: var(--highlight-color);
+  padding: 10px 20px;
+  margin-top: 30px;
+  border: none;
+  color: var(--accent-color);
+}
+.btn-brand:hover {
+  transition: 200ms ease-in;
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
 }
 .email-link {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
   text-decoration: none;
 }
