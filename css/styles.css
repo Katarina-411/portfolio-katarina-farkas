@@ -111,11 +111,11 @@ p {
 }
 @media (max-width: 760px) {
   h1,
-  h2,
-  .about-skills h2 {
+  h2 {
     text-align: center;
   }
-  .hero {
+  .hero,
+  .about-skills {
     padding: 40px 20px 60px;
   }
   .btn-brand {
@@ -129,5 +129,15 @@ p {
   }
   .feature-projects {
     width: 80%;
+  }
+  #about-description {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #skills-description {
+    display: block;
+    width: 100%;
+    padding-left: 60px;
   }
 }
