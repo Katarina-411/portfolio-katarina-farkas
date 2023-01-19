@@ -77,6 +77,7 @@ p {
   margin-top: 30px;
   border: none;
   color: var(--accent-color);
+  width: 50%;
 }
 .btn-brand:hover {
   transition: 200ms ease-in;
@@ -111,9 +112,15 @@ p {
 }
 @media (max-width: 760px) {
   h1,
-  h2 {
+  h2,
+  .header-description {
     text-align: center;
   }
+  h4 {
+    text-align: center;
+    font-size: 18px;
+  }
+
   .hero,
   .about-skills {
     padding: 40px 20px 60px;
@@ -130,14 +137,11 @@ p {
   .feature-projects {
     width: 80%;
   }
-  #about-description {
-    display: block;
-    width: 100%;
+  .feature-projects p {
     text-align: center;
+    font-size: 16px;
   }
-  #skills-description {
-    display: block;
-    width: 100%;
+  .skills-description {
     padding-left: 60px;
   }
 }
