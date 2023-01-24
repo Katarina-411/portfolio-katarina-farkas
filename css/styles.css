@@ -62,8 +62,9 @@ p {
     var(--highlight-color) 90% 93%,
     var(--secondary-color) 93%
   );
-  padding: 80px 80px 130px;
+  padding: 60px 80px 100px;
   width: 100%;
+  max-height: 350px;
 }
 .icon {
   color: var(--secondary-color);
@@ -106,7 +107,7 @@ p {
   width: 100%;
 }
 .about-skills {
-  padding: 80px 80px 130px;
+  padding: 40px 80px 100px;
   width: 100%;
 }
 .about-skills h2 {
@@ -138,6 +139,9 @@ p {
   h4 {
     text-align: center;
     font-size: 18px;
+  }
+  .story p {
+    text-align: center;
   }
 
   .hero,
