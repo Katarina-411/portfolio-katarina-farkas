@@ -22,7 +22,7 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-    <title>Contact | Katarina Farkas</title>
+    <title>Enquiry Submitted | Katarina Farkas</title>
   </head>
   <body>
     <nav
@@ -91,93 +91,17 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <h1>Contact me</h1>
+            <h1>Thank you for your enquiry</h1>
           </div>
           <div class="col-md-7 header-description">
             <p>
-              If you are interested in working with me, please get in touch via
-              email:
-              <a
-                href="mailto:411digitaldesign@gmail.com"
-                title="Send me an email"
-                class="email-link"
-                >411digitaldesign@gmail.com</a
-              >
-              , or leave a message below.
+              Your enquiry has been submitted. I will be in touch shortly to
+              discuss your requirements.
             </p>
+            <a href="/" class="btn btn-brand">Go back to home</a>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="container" id="enquiry-form">
-      <form
-        name="enquiry"
-        action="/enquirysubmitted.html"
-        method="POST"
-        data-netlify-recaptcha="true"
-        data-netlify="true"
-      >
-        <h3 class="text-center mb-5">Get in touch</h3>
-        <div class="mb-3">
-          <label for="formFirstName" class="form-label">First name</label>
-          <input
-            type="text"
-            class="enquiry-name form-control"
-            required="required"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="formLastName" class="form-label">Last name</label>
-          <input
-            type="text"
-            class="enquiry-name form-control"
-            required="required"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="formInputEmail" class="form-label">Email</label>
-          <input
-            type="email"
-            name="email"
-            class="enquiry-email form-control"
-            required="required"
-          />
-        </div>
-        <div class="mb-3">
-          <label for="formInputPhone" class="form-label">Phone</label>
-          <input
-            type="number"
-            class="enquiry-phone form-control"
-            required="required"
-          />
-        </div>
-        <div class="mb-3">
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Type of enquiry</option>
-            <option value="1">Digital Marketing</option>
-            <option value="2">Graphic Design</option>
-            <option value="3">Website Development</option>
-            <option value="4">A combination of the above</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <label for="formMessage" class="form-label">Message</label>
-          <textarea
-            name="enquiryMessage"
-            id="enquiry-message"
-            rows="3"
-            class="form-control"
-            required="required"
-          ></textarea>
-        </div>
-        <div data-netlify-recaptcha="true"></div>
-        <div>
-          <button type="submit" class="btn btn-brand btn-center">
-            Send enquiry
-          </button>
-        </div>
-      </form>
     </div>
   </body>
 </html>
