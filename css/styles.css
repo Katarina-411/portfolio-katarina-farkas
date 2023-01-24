@@ -97,6 +97,10 @@ p {
   color: var(--tertiary-color);
   text-decoration: none;
 }
+.email-link:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
 .contact-panel {
   background-color: var(--tertiary-color);
   width: 100%;
@@ -114,6 +118,15 @@ p {
 .anchor a {
   color: var(--secondary-color);
   text-decoration: none;
+}
+#enquiry-form {
+  width: 70%;
+  max-width: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px 20px 0;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
 }
 
 @media (max-width: 760px) {
