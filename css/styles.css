@@ -133,6 +133,7 @@ p {
 @media (max-width: 760px) {
   h1,
   h2,
+  h3,
   .header-description {
     text-align: center;
   }
@@ -165,7 +166,7 @@ p {
     font-size: 16px;
   }
   .skills-description {
-    padding-left: 60px;
+    padding-left: 40px;
   }
   .anchor {
     display: flex;
