@@ -35,9 +35,46 @@ h4 {
   font-weight: 300;
   color: var(--primary-color);
 }
+h6 {
+  font-size: 12px;
+  text-align: center;
+}
 p {
   color: var(--accent-color);
   font-size: 18px;
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 15px 120px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+footer .contact-box h3 {
+  color: var(--accent-color);
+  margin-right: 70px;
+  margin-bottom: 0;
+  text-align: left;
+}
+footer .contact-box p {
+  margin-bottom: 0;
+}
+
+footer .social-links i {
+  color: var(--accent-color);
+  text-align: center;
+  margin: 5px 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: var(--highlight-color);
+  font-size: 20px;
+}
+footer .social-links i:hover {
+  transition: 200ms ease-in;
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+}
+footer .designer {
+  margin: 30px;
 }
 
 #monogram {
@@ -64,7 +101,6 @@ p {
   );
   padding: 60px 80px 100px;
   width: 100%;
-  max-height: 350px;
 }
 .icon {
   color: var(--secondary-color);
@@ -94,6 +130,7 @@ p {
   border: 1px solid var(--primary-color);
   border-radius: 4px;
 }
+
 .email-link {
   color: var(--tertiary-color);
   text-decoration: none;
@@ -115,7 +152,6 @@ p {
   font-size: 60px;
   font-weight: 700;
 }
-
 .anchor a {
   color: var(--secondary-color);
   text-decoration: none;
@@ -152,11 +188,11 @@ p {
   .btn-brand {
     display: block;
     margin: 30px auto;
-    width: 50%;
+    width: 80%;
     font-size: 16px;
   }
   .btn-center {
-    max-width: 80%;
+    width: 80%;
   }
   .feature-projects {
     width: 80%;
