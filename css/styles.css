@@ -99,14 +99,13 @@ footer .designer {
     var(--highlight-color) 90% 93%,
     var(--secondary-color) 93%
   );
-  padding: 60px 80px 100px;
+  padding: 60px 80px 60px;
   width: 100%;
 }
-.icon {
-  color: var(--secondary-color);
-  font-size: 90px;
+.headshot {
   position: relative;
-  bottom: -30px;
+  bottom: 40px;
+  left: -15px;
 }
 .btn-brand {
   background-color: var(--highlight-color);
